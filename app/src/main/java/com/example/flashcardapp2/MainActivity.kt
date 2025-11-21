@@ -1,5 +1,6 @@
 package com.example.flashcardapp2
 
+import android.opengl.Visibility
 import android.os.Bundle
 import android.view.View
 import androidx.activity.enableEdgeToEdge
@@ -19,6 +20,12 @@ class MainActivity : AppCompatActivity() {
         flashcardQuestion . setOnClickListener {
             flashcardQuestion . visibility = View . INVISIBLE
             flashcardAnswer . visibility = View . VISIBLE
+
+        }
+        flashcardAnswer.setOnClickListener {
+            flashcardQuestion.visibility= View.VISIBLE
+            flashcardAnswer.visibility= View.INVISIBLE
+
 
         }
     }
