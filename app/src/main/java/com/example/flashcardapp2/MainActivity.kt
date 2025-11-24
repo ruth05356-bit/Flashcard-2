@@ -22,6 +22,7 @@ class MainActivity : AppCompatActivity() {
             flashcardAnswer . visibility = View . VISIBLE
 
         }
+
         flashcardAnswer.setOnClickListener {
             flashcardQuestion.visibility= View.VISIBLE
             flashcardAnswer.visibility= View.INVISIBLE

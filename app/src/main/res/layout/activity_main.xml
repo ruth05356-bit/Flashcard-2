@@ -30,6 +30,15 @@
     android:textColor="#ffffff"/>
 
 
+<ImageView
+    android:layout_width="80dp"
+    android:layout_height="80dp"
+    android:layout_alignParentEnd="true"
+    android:layout_alignParentBottom="true"
+    app:srcCompat="@drawable/iconmonstr_plus_circle_lined" />
+
+
+
 
 
 </RelativeLayout>
